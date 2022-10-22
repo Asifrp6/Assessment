@@ -1,0 +1,2502 @@
+/* Extra small devices (phones, 600px and down) */
+/*@media only screen and (max-width: 600px) {...}
+*/
+@media all and (max-width: 600px){
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+header{
+	background: #000000;
+	position: absolute;
+	width: 76.5%;
+	height: 5.625rem;
+	left: 140px;
+	top: 0px;
+	 }
+.HeaderCorner{
+	display: flex;
+
+}
+.HeaderDropdown{
+    position: absolute;
+	width: 12.5rem;
+	height: 3.75rem;
+	left: 235px;
+	top: .9375rem;
+	background: #FFFFFF;
+	box-shadow: 0.625rem 1.25rem rgba(0, 0, 0, 0.07);
+	border-radius: 2.8125rem;
+	
+}
+.HeaderDropdownP {
+	position: absolute;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 20px;
+	left: 90px;
+	top: 5px;
+	text-align: left;
+	color: white;
+}
+.HeaderDropdownSpan {
+	top: 5px;
+	font-size: 25px;
+	line-height: 1.875rem;
+}
+/*start of the Body Side Part design*/
+.logo{
+	position: absolute;
+	width: 50px;
+	height: 120px;
+	left: 15px;
+	top: 15px;
+}
+.Body-Side-Part{
+	display: block;
+	position: fixed;
+	width: 150px;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #000000;
+		}
+
+.Body-Side-menu-btn{
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	color: #7D7D7E;
+		}
+
+.Body-Side-menu-img{
+	width: 10px;
+	height: 10px;
+	margin-bottom: 27px;
+	}
+/*for deshbord*/
+.Body-Side-Deshbord-a{
+	position: absolute;
+	left: 3px;
+	top: 123px;
+	text-decoration: none;
+	color: #7D7D7E;
+		}
+.Body-Side-Deshbord-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 3.5px;
+	}
+
+/*for lookup*/
+.Body-Side-Lookup-a{
+	position: absolute;
+	left: 3px;
+	top: 183px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-Lookup-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 3.5px;
+	}
+
+/*for file*/
+.Body-Side-File-a{
+	position: absolute;
+	left: 3px;
+	top: 243px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-File-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 3.5px;
+	}
+
+/*for logs*/
+.Body-Side-Logs-a{
+	position: absolute;
+	left: 3px;
+	top: 303px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+
+.Body-Side-Logs-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 3.5px;
+	}
+
+	/*for Buy Cradit Card*/
+.Body-Side-BuyCredit-a{
+	position: absolute;
+	left: 3px;
+	top: 363px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-BuyCredit-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 3.5px;
+	}
+
+	/*for Intragtion*/
+.Body-Side-Intragtion-a{
+	position: absolute;
+	left: 3px;
+	top: 423px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-Intragtion-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 3.5px;
+	}
+
+	/*for My profile*/
+.Body-Side-MyProfile-a{
+	position: absolute;
+	left: 3px;
+	top: 483px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-MyProfile-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 3.5px;
+	}
+
+.Body-Side-menu-p{
+	display: inline-block;
+	position: absolute;
+	left: 35.3px;
+	width: 86px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+/*end of the Body Side Part design*/
+
+
+/*Start of the Body inside upper Part design*/
+.InSideBProperty-Main-Div{
+	display: flex;
+	align-items: center;
+}
+
+.InSideBProperty-Up-Div-Fst{
+	position: absolute;
+	width: 20.3125rem;
+	height: 20.875rem;
+	left: 210px;
+	top: 7.5rem;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: .625rem;
+	z-index: -3;
+}
+.InSideBProperty-Up-Div-Fst-txt{
+	position: absolute;
+	height: 38px;
+	left: 108px;
+	top: 155px;
+	font-size: 20px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #26262E;
+}
+.InSideBProperty-Up-Div-Fst-txt-2{
+	position: absolute;
+	width: 123px;
+	height: 20px;
+	left: 92px;
+	top: 193px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7D7D7E;
+}
+
+.InSideBProperty-Up-Div-Fst-txt-3{
+	position: absolute;
+	height: 20px;
+	left: 107px;
+	top: 223px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7D7D7E;
+}
+
+.InSideBProperty-Up-Div-Fst-txt-4{
+	position: absolute;
+	height: 20px;
+	left: 67px;
+	top: 248px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7D7D7E;
+		}
+
+.InSideBProperty-Up-Div-Snd{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 70%;
+	height: 73%;
+	left: 165px;
+	top: 500px;
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: .625rem;
+}
+
+ /*---------
+ for card 1
+ -----------*/
+.CraditCard{
+	position: absolute;
+	width: 387px;
+	height: 154px;
+	left: 10px;
+	top: 50px;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: 10px;
+}
+.craditCardText{
+	position: absolute;
+	height: 30px;
+	left: 95px;
+	top: 10px;
+	font-size: 24px;
+	color: #26262E;
+}
+.CraditCard-CCard{
+	position: absolute;
+	width: 130px;
+	height: 32px;
+	left: 30px;
+	top: 18px;
+	font-size: 24px;
+	line-height: 30px;
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #7D7D7E;
+}
+.CraditCard-num{
+	position: absolute;
+	width: 172px;
+	height: 32px;
+	left: 30px;
+	top: 92px;
+	font-size: 20px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #BDBDBD;
+}
+.craditCard-img{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 347px;
+	top: 10px;
+	}
+ /*-----------
+   for card 2
+ -------------*/
+.CraditCard-2{
+	box-sizing: border-box;
+	position: absolute;
+	width: 387px;
+	height: 154px;
+	left: 10px;
+	top: 230px;
+	background: #FFFFFF;
+	border: 1px solid #FF7901;
+	border-radius: 10px;
+}
+
+.craditCardText-2{
+	position: absolute;
+	height: 30px;
+	left: 30px;
+	top: 60px;
+	font-size: 24px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	color: #26262E;
+}
+
+.CraditCard-CCard-2{
+	position: absolute;
+	height: 32px;
+	left: 30px;
+	top: 30px;
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.CraditCard-num-2{
+	position: absolute;
+	width: 169px;
+	height: 32px;
+	left: 30px;
+	top: 92px;
+	font-size: 20px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #26262E;
+}
+
+.craditCard-img-2{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 347px;
+	top: 10px;
+	background: #FFD7D7;
+	border-radius: 40px;
+}
+ /*----------
+ for card 3
+ -----------*/
+.CraditCard-3{
+	box-sizing: border-box;
+	position: absolute;
+	width: 387px;
+	height: 154px;
+	left: 10px;
+	top: 400px;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: 10px;
+}
+
+/*-------------------------
+inside body down div start
+---------------------------*/
+
+.InSideBProperty-Dwn-Div{
+	display: flex;
+	top: 1100px;
+	left: 185px;
+	width: 65%;
+	height: 100%;
+}
+.InSideBProperty-Dwn-Div-hr{
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	left: 5px;
+	top: 280px;
+	border: 2px solid #F2F2F4;
+}
+.InSideBProperty-Dwn-Div-txt{
+font-size: 16px;
+line-height: 28px;
+height: 100px;
+display: flex;
+align-items: center;
+color: #26262E;
+}
+.InSideBProperty-Dwn-Div-txt-Org{
+margin:10px ;
+}
+.InSideBProperty-Dwn-Div-txt-Org:hover{
+	color: #FF7901;
+border-bottom: 2px solid  #FF7901;
+}
+
+/*--------------------
+Start for trogle button
+---------------------*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #FF7901;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*--------------------
+End for trogle button
+---------------------*/
+.InSideBProperty-Dwn-btn{
+	display: flex;
+	flex-direction: column;
+}
+.InSideBProperty-Dwn-btn-on{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 110px;
+}
+.InSideBProperty-Dwn-btn-off{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 165px;
+}
+
+.InSideBProperty-Dwn-btn-on-2{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 220px;
+}
+.InSideBProperty-Dwn-btn-hr{
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	left: 0px;
+	top: 80px;
+	border: 2px solid #F2F2F4;
+}
+.InSideBProperty-Dwn-btn-on-3{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 300px;
+}
+.InSideBProperty-Dwn-btn-txt {
+left: 40px;
+font-size: 16px;
+line-height: 32px;
+margin-left:20px ;
+display: flex;
+align-items: center;
+}
+
+.InSideBProperty-Dwn-form{
+	position: absolute;
+	left: 5px;
+	top: 441px;
+}
+
+/*for from design*/
+
+.InSideBProperty-Dwn-form-dis{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	}
+
+.InSideBProperty-Dwn-form-input{
+	  width: 100%;
+	  height: 60px;
+	  margin-left: 80px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	}
+
+.InSideBProperty-Dwn-form-input-2{
+	  left:30px;
+	  width: 100%;
+	  height: 60px;
+	  margin-left: 80px;
+	  margin: 0;
+	  padding: 0;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	}
+
+.InSideBProperty-Dwn-form-input-txt{
+	font-size: 16px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	margin-left: 80px;
+	color: #7D7D7E;
+	}
+.InSideBProperty-Dwn-form-input-txt-2{
+	font-size: 16px;
+	margin: 15px 0 0 80px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #7D7D7E;
+	}
+
+.InSideBProperty-Dwn-form-input-2{
+	font-size: 16px;
+	line-height: 32px;
+	margin-left: 80px;
+	display: flex;
+	align-items: center;
+	color: #7D7D7E;
+	}
+
+.InSideBProperty-Dwn-btn-hr-Aform{
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	left: 5px;
+	top: 661px;
+	border: 2px solid #F2F2F4;
+}
+
+.InSideBProperty-Dwn-form-btn {
+	position: absolute;
+	width: 150px;
+	height: 48px;
+	left: 105px;
+	top: 685px;
+	margin-bottom: 15px;
+	background: #FF7901;
+	border: 1px solid #ccc;
+	box-shadow: 0px 20px 50px rgba(255, 121, 1, 0.3);
+	border-radius: 5px;
+		}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {...}*/
+
+@media all and (min-width: 600px)and (max-width: 767px){
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+header{
+	background: #000000;
+	position: absolute;
+	width: 86.5%;
+	height: 5.625rem;
+	left: 140px;
+	top: 0px;
+	 }
+.HeaderCorner{
+	display: flex;
+
+}
+.HeaderDropdown{
+    position: absolute;
+	width: 12.5rem;
+	height: 3.75rem;
+	left: 385px;
+	top: .9375rem;
+	background: #FFFFFF;
+	box-shadow: 0.625rem 1.25rem rgba(0, 0, 0, 0.07);
+	border-radius: 2.8125rem;
+	
+}
+.HeaderDropdownP {
+	position: absolute;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 20px;
+	left: 220px;
+	top: 5px;
+	text-align: left;
+	color: white;
+}
+.HeaderDropdownSpan {
+	top: 5px;
+	font-size: 25px;
+	line-height: 1.875rem;
+}
+/*start of the Body Side Part design*/
+.logo{
+	position: absolute;
+	width: 50px;
+	height: 120px;
+	left: 15px;
+	top: 15px;
+}
+.Body-Side-Part{
+	display: block;
+	position: fixed;
+	width: 150px;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #000000;
+		}
+
+.Body-Side-menu-btn{
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	color: #7D7D7E;
+		}
+
+.Body-Side-menu-img{
+	width: 10px;
+	height: 10px;
+	margin-bottom: 27px;
+	}
+/*for deshbord*/
+.Body-Side-Deshbord-a{
+	position: absolute;
+	left: 3px;
+	top: 123px;
+	text-decoration: none;
+	color: #7D7D7E;
+		}
+.Body-Side-Deshbord-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+/*for lookup*/
+.Body-Side-Lookup-a{
+	position: absolute;
+	left: 3px;
+	top: 183px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-Lookup-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+/*for file*/
+.Body-Side-File-a{
+	position: absolute;
+	left: 3px;
+	top: 243px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-File-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+/*for logs*/
+.Body-Side-Logs-a{
+	position: absolute;
+	left: 3px;
+	top: 303px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+
+.Body-Side-Logs-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+	/*for Buy Cradit Card*/
+.Body-Side-BuyCredit-a{
+	position: absolute;
+	left: 3px;
+	top: 363px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-BuyCredit-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+	/*for Intragtion*/
+.Body-Side-Intragtion-a{
+	position: absolute;
+	left: 3px;
+	top: 423px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-Intragtion-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+	/*for My profile*/
+.Body-Side-MyProfile-a{
+	position: absolute;
+	left: 3px;
+	top: 483px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-MyProfile-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+.Body-Side-menu-p{
+	display: inline-block;
+	position: absolute;
+	left: 35.3px;
+	width: 86px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+/*end of the Body Side Part design*/
+
+
+/*Start of the Body inside upper Part design*/
+.InSideBProperty-Main-Div{
+	display: flex;
+	align-items: center;
+}
+
+.InSideBProperty-Up-Div-Fst{
+	position: absolute;
+	width: 20.3125rem;
+	height: 20.875rem;
+	left: 285px;
+	top: 7.5rem;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: .625rem;
+	z-index: -3;
+}
+.InSideBProperty-Up-Div-Fst-txt{
+	position: absolute;
+	height: 38px;
+	left: 108px;
+	top: 155px;
+	font-size: 20px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #26262E;
+}
+.InSideBProperty-Up-Div-Fst-txt-2{
+	position: absolute;
+	width: 123px;
+	height: 20px;
+	left: 92px;
+	top: 193px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7D7D7E;
+}
+
+.InSideBProperty-Up-Div-Fst-txt-3{
+	position: absolute;
+	height: 20px;
+	left: 107px;
+	top: 223px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7D7D7E;
+}
+
+.InSideBProperty-Up-Div-Fst-txt-4{
+	position: absolute;
+	height: 20px;
+	left: 67px;
+	top: 248px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7D7D7E;
+		}
+
+.InSideBProperty-Up-Div-Snd{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 70%;
+	height: 73%;
+	left: 185px;
+	top: 500px;
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: .625rem;
+}
+
+ /*---------
+ for card 1
+ -----------*/
+.CraditCard{
+	position: absolute;
+	width: 387px;
+	height: 154px;
+	left: 60px;
+	top: 50px;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: 10px;
+}
+.craditCardText{
+	position: absolute;
+	height: 30px;
+	left: 95px;
+	top: 10px;
+	font-size: 24px;
+	color: #26262E;
+}
+.CraditCard-CCard{
+	position: absolute;
+	width: 130px;
+	height: 32px;
+	left: 30px;
+	top: 18px;
+	font-size: 24px;
+	line-height: 30px;
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #7D7D7E;
+}
+.CraditCard-num{
+	position: absolute;
+	width: 172px;
+	height: 32px;
+	left: 30px;
+	top: 92px;
+	font-size: 20px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #BDBDBD;
+}
+.craditCard-img{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 347px;
+	top: 10px;
+	}
+ /*-----------
+   for card 2
+ -------------*/
+.CraditCard-2{
+	box-sizing: border-box;
+	position: absolute;
+	width: 387px;
+	height: 154px;
+	left: 60px;
+	top: 230px;
+	background: #FFFFFF;
+	border: 1px solid #FF7901;
+	border-radius: 10px;
+}
+
+.craditCardText-2{
+	position: absolute;
+	height: 30px;
+	left: 30px;
+	top: 60px;
+	font-size: 24px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	color: #26262E;
+}
+
+.CraditCard-CCard-2{
+	position: absolute;
+	height: 32px;
+	left: 30px;
+	top: 30px;
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.CraditCard-num-2{
+	position: absolute;
+	width: 169px;
+	height: 32px;
+	left: 30px;
+	top: 92px;
+	font-size: 20px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #26262E;
+}
+
+.craditCard-img-2{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 347px;
+	top: 10px;
+	background: #FFD7D7;
+	border-radius: 40px;
+}
+ /*----------
+ for card 3
+ -----------*/
+.CraditCard-3{
+	box-sizing: border-box;
+	position: absolute;
+	width: 387px;
+	height: 154px;
+	left: 60px;
+	top: 400px;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: 10px;
+}
+
+/*-------------------------
+inside body down div start
+---------------------------*/
+
+.InSideBProperty-Dwn-Div{
+	display: flex;
+	top: 1100px;
+	left: 195px;
+	width: 69%;
+	height: 100%;
+}
+.InSideBProperty-Dwn-Div-hr{
+	position: absolute;
+	width: 98%;
+	height: 0px;
+	left: 5px;
+	top: 280px;
+	border: 2px solid #F2F2F4;
+}
+.InSideBProperty-Dwn-Div-txt{
+font-size: 16px;
+line-height: 28px;
+height: 100px;
+display: flex;
+align-items: center;
+color: #26262E;
+}
+.InSideBProperty-Dwn-Div-txt-Org{
+margin:10px ;
+}
+.InSideBProperty-Dwn-Div-txt-Org:hover{
+	color: #FF7901;
+border-bottom: 2px solid  #FF7901;
+}
+
+/*--------------------
+Start for trogle button
+---------------------*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #FF7901;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*--------------------
+End for trogle button
+---------------------*/
+.InSideBProperty-Dwn-btn{
+	display: flex;
+	flex-direction: column;
+}
+.InSideBProperty-Dwn-btn-on{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 110px;
+}
+.InSideBProperty-Dwn-btn-off{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 165px;
+}
+
+.InSideBProperty-Dwn-btn-on-2{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 220px;
+}
+.InSideBProperty-Dwn-btn-hr{
+	position: absolute;
+	width: 99%;
+	height: 0px;
+	left: 0px;
+	top: 80px;
+	border: 2px solid #F2F2F4;
+}
+.InSideBProperty-Dwn-btn-on-3{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 300px;
+}
+.InSideBProperty-Dwn-btn-txt {
+left: 40px;
+font-size: 16px;
+line-height: 32px;
+margin-left:20px ;
+display: flex;
+align-items: center;
+}
+
+.InSideBProperty-Dwn-form{
+	position: absolute;
+	left: 5px;
+	top: 441px;
+}
+
+/*for from design*/
+
+.InSideBProperty-Dwn-form-dis{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	}
+
+.InSideBProperty-Dwn-form-input{
+	  width: 100%;
+	  height: 60px;
+	  margin-left: 80px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  padding-right: 18px;
+	}
+
+.InSideBProperty-Dwn-form-input-2{
+	  width: 100%;
+	  height: 60px;
+	  margin-left: 80px;
+	  margin: 0;
+	  padding: 0;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	}
+
+.InSideBProperty-Dwn-form-input-txt{
+	font-size: 16px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	margin-left: 80px;
+	color: #7D7D7E;
+	}
+.InSideBProperty-Dwn-form-input-txt-2{
+	font-size: 16px;
+	margin: 15px 0 0 80px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #7D7D7E;
+	}
+
+.InSideBProperty-Dwn-form-input-2{
+	font-size: 16px;
+	line-height: 32px;
+	margin-left: 80px;
+	display: flex;
+	align-items: center;
+	color: #7D7D7E;
+	}
+
+.InSideBProperty-Dwn-btn-hr-Aform{
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	left: 5px;
+	top: 661px;
+	border: 2px solid #F2F2F4;
+}
+
+.InSideBProperty-Dwn-form-btn {
+	position: absolute;
+	width: 150px;
+	height: 48px;
+	left: 105px;
+	top: 685px;
+	margin-bottom: 15px;
+	background: #FF7901;
+	border: 1px solid #ccc;
+	box-shadow: 0px 20px 50px rgba(255, 121, 1, 0.3);
+	border-radius: 5px;
+		}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) {...}*/
+@media all and (min-width: 768px)and (max-width: 992px){
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+header{
+	background: #000000;
+	position: absolute;
+	width: 86.5%;
+	height: 5.625rem;
+	left: 140px;
+	top: 0px;
+	 }
+.HeaderCorner{
+	display: flex;
+
+}
+.HeaderDropdown{
+    position: absolute;
+	width: 12.5rem;
+	height: 3.75rem;
+	left: 590px;
+	top: .9375rem;
+	background: #FFFFFF;
+	box-shadow: 0.625rem 1.25rem rgba(0, 0, 0, 0.07);
+	border-radius: 2.8125rem;
+	
+}
+.HeaderDropdownP {
+	position: absolute;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 20px;
+	left: 450px;
+	top: 5px;
+	text-align: left;
+	color: white;
+}
+.HeaderDropdownSpan {
+	top: 5px;
+	font-size: 25px;
+	line-height: 1.875rem;
+}
+/*start of the Body Side Part design*/
+.logo{
+	position: absolute;
+	width: 50px;
+	height: 120px;
+	left: 15px;
+	top: 15px;
+}
+.Body-Side-Part{
+	display: block;
+	position: fixed;
+	width: 150px;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #000000;
+		}
+
+.Body-Side-menu-btn{
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	color: #7D7D7E;
+		}
+
+.Body-Side-menu-img{
+	width: 10px;
+	height: 10px;
+	margin-bottom: 27px;
+	}
+/*for deshbord*/
+.Body-Side-Deshbord-a{
+	position: absolute;
+	left: 3px;
+	top: 123px;
+	text-decoration: none;
+	color: #7D7D7E;
+		}
+.Body-Side-Deshbord-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+/*for lookup*/
+.Body-Side-Lookup-a{
+	position: absolute;
+	left: 3px;
+	top: 183px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-Lookup-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+/*for file*/
+.Body-Side-File-a{
+	position: absolute;
+	left: 3px;
+	top: 243px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-File-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+/*for logs*/
+.Body-Side-Logs-a{
+	position: absolute;
+	left: 3px;
+	top: 303px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+
+.Body-Side-Logs-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+	/*for Buy Cradit Card*/
+.Body-Side-BuyCredit-a{
+	position: absolute;
+	left: 3px;
+	top: 363px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-BuyCredit-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+	/*for Intragtion*/
+.Body-Side-Intragtion-a{
+	position: absolute;
+	left: 3px;
+	top: 423px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-Intragtion-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+	/*for My profile*/
+.Body-Side-MyProfile-a{
+	position: absolute;
+	left: 3px;
+	top: 483px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-MyProfile-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+.Body-Side-menu-p{
+	display: inline-block;
+	position: absolute;
+	left: 35.3px;
+	width: 86px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+/*end of the Body Side Part design*/
+
+
+/*Start of the Body inside upper Part design*/
+.InSideBProperty-Main-Div{
+	display: flex;
+	align-items: center;
+}
+
+.InSideBProperty-Up-Div-Fst{
+	position: absolute;
+	width: 20.3125rem;
+	height: 20.875rem;
+	left: 405px;
+	top: 7.5rem;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: .625rem;
+	z-index: -3;
+}
+.InSideBProperty-Up-Div-Fst-txt{
+	position: absolute;
+	height: 38px;
+	left: 108px;
+	top: 155px;
+	font-size: 20px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #26262E;
+}
+.InSideBProperty-Up-Div-Fst-txt-2{
+	position: absolute;
+	width: 123px;
+	height: 20px;
+	left: 92px;
+	top: 193px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7D7D7E;
+}
+
+.InSideBProperty-Up-Div-Fst-txt-3{
+	position: absolute;
+	height: 20px;
+	left: 107px;
+	top: 223px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7D7D7E;
+}
+
+.InSideBProperty-Up-Div-Fst-txt-4{
+	position: absolute;
+	height: 20px;
+	left: 67px;
+	top: 248px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7D7D7E;
+		}
+
+.InSideBProperty-Up-Div-Snd{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 70%;
+	height: 73%;
+	left: 230px;
+	top: 500px;
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: .625rem;
+}
+
+ /*---------
+ for card 1
+ -----------*/
+.CraditCard{
+	position: absolute;
+	width: 387px;
+	height: 154px;
+	left: 110px;
+	top: 50px;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: 10px;
+}
+.craditCardText{
+	position: absolute;
+	height: 30px;
+	left: 200px;
+	top: 10px;
+	font-size: 24px;
+	color: #26262E;
+}
+.CraditCard-CCard{
+	position: absolute;
+	width: 130px;
+	height: 32px;
+	left: 30px;
+	top: 18px;
+	font-size: 24px;
+	line-height: 30px;
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #7D7D7E;
+}
+.CraditCard-num{
+	position: absolute;
+	width: 172px;
+	height: 32px;
+	left: 30px;
+	top: 92px;
+	font-size: 20px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #BDBDBD;
+}
+.craditCard-img{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 347px;
+	top: 10px;
+	}
+ /*-----------
+   for card 2
+ -------------*/
+.CraditCard-2{
+	box-sizing: border-box;
+	position: absolute;
+	width: 387px;
+	height: 154px;
+	left: 110px;
+	top: 230px;
+	background: #FFFFFF;
+	border: 1px solid #FF7901;
+	border-radius: 10px;
+}
+
+.craditCardText-2{
+	position: absolute;
+	height: 30px;
+	left: 30px;
+	top: 60px;
+	font-size: 24px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	color: #26262E;
+}
+
+.CraditCard-CCard-2{
+	position: absolute;
+	height: 32px;
+	left: 30px;
+	top: 30px;
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.CraditCard-num-2{
+	position: absolute;
+	width: 169px;
+	height: 32px;
+	left: 30px;
+	top: 92px;
+	font-size: 20px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #26262E;
+}
+
+.craditCard-img-2{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 347px;
+	top: 10px;
+	background: #FFD7D7;
+	border-radius: 40px;
+}
+ /*----------
+ for card 3
+ -----------*/
+.CraditCard-3{
+	box-sizing: border-box;
+	position: absolute;
+	width: 387px;
+	height: 154px;
+	left: 110px;
+	top: 400px;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: 10px;
+}
+
+/*-------------------------
+inside body down div start
+---------------------------*/
+
+.InSideBProperty-Dwn-Div{
+	display: flex;
+	top: 1100px;
+	left: 200px;
+	width: 75%;
+	height: 100%;
+}
+.InSideBProperty-Dwn-Div-hr{
+	position: absolute;
+	width: 98%;
+	height: 0px;
+	left: 5px;
+	top: 280px;
+	border: 2px solid #F2F2F4;
+}
+.InSideBProperty-Dwn-Div-txt{
+font-size: 16px;
+line-height: 28px;
+height: 100px;
+display: flex;
+align-items: center;
+color: #26262E;
+}
+.InSideBProperty-Dwn-Div-txt-Org{
+margin:10px ;
+}
+.InSideBProperty-Dwn-Div-txt-Org:hover{
+	color: #FF7901;
+border-bottom: 2px solid  #FF7901;
+}
+
+/*--------------------
+Start for trogle button
+---------------------*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #FF7901;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*--------------------
+End for trogle button
+---------------------*/
+.InSideBProperty-Dwn-btn{
+	display: flex;
+	flex-direction: column;
+}
+.InSideBProperty-Dwn-btn-on{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 110px;
+}
+.InSideBProperty-Dwn-btn-off{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 165px;
+}
+
+.InSideBProperty-Dwn-btn-on-2{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 220px;
+}
+.InSideBProperty-Dwn-btn-hr{
+	position: absolute;
+	width: 99%;
+	height: 0px;
+	left: 0px;
+	top: 80px;
+	border: 2px solid #F2F2F4;
+}
+.InSideBProperty-Dwn-btn-on-3{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 300px;
+}
+.InSideBProperty-Dwn-btn-txt {
+left: 40px;
+font-size: 16px;
+line-height: 32px;
+margin-left:20px ;
+display: flex;
+align-items: center;
+}
+
+.InSideBProperty-Dwn-form{
+	position: absolute;
+	left: 150px;
+	top: 441px;
+}
+
+/*for from design*/
+
+.InSideBProperty-Dwn-form-dis{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	}
+
+.InSideBProperty-Dwn-form-input{
+	  width: 100%;
+	  height: 60px;
+	  margin-left: 80px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  padding-right: 18px;
+	}
+
+.InSideBProperty-Dwn-form-input-2{
+	  width: 100%;
+	  height: 60px;
+	  margin-left: 80px;
+	  margin: 0;
+	  padding: 0;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	}
+
+.InSideBProperty-Dwn-form-input-txt{
+	font-size: 16px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	margin-left: 80px;
+	color: #7D7D7E;
+	}
+.InSideBProperty-Dwn-form-input-txt-2{
+	font-size: 16px;
+	margin: 15px 0 0 80px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #7D7D7E;
+	}
+
+.InSideBProperty-Dwn-form-input-2{
+	font-size: 16px;
+	line-height: 32px;
+	margin-left: 80px;
+	display: flex;
+	align-items: center;
+	color: #7D7D7E;
+	}
+
+.InSideBProperty-Dwn-btn-hr-Aform{
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	left: 5px;
+	top: 661px;
+	border: 2px solid #F2F2F4;
+}
+
+.InSideBProperty-Dwn-form-btn {
+	position: absolute;
+	width: 150px;
+	height: 48px;
+	left: 285px;
+	top: 685px;
+	margin-bottom: 15px;
+	background: #FF7901;
+	border: 1px solid #ccc;
+	box-shadow: 0px 20px 50px rgba(255, 121, 1, 0.3);
+	border-radius: 5px;
+		}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) {...}*/
+@media all and (min-width: 993px)and (max-width: 1200px){
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+header{
+	background: #000000;
+	position: absolute;
+	width: 86.5%;
+	height: 5.625rem;
+	left: 140px;
+	top: 0px;
+	 }
+.HeaderCorner{
+	display: flex;
+
+}
+.HeaderDropdown{
+    position: absolute;
+	width: 12.5rem;
+	height: 3.75rem;
+	left: 790px;
+	top: .9375rem;
+	background: #FFFFFF;
+	box-shadow: 0.625rem 1.25rem rgba(0, 0, 0, 0.07);
+	border-radius: 2.8125rem;
+	
+}
+.HeaderDropdownP {
+	position: absolute;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 20px;
+	left: 650px;
+	top: 5px;
+	text-align: left;
+	color: white;
+}
+.HeaderDropdownSpan {
+	top: 5px;
+	font-size: 25px;
+	line-height: 1.875rem;
+}
+/*start of the Body Side Part design*/
+.logo{
+	position: absolute;
+	width: 50px;
+	height: 120px;
+	left: 15px;
+	top: 15px;
+}
+.Body-Side-Part{
+	display: block;
+	position: fixed;
+	width: 150px;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #000000;
+		}
+
+.Body-Side-menu-btn{
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	color: #7D7D7E;
+		}
+
+.Body-Side-menu-img{
+	width: 10px;
+	height: 10px;
+	margin-bottom: 27px;
+	}
+/*for deshbord*/
+.Body-Side-Deshbord-a{
+	position: absolute;
+	left: 3px;
+	top: 123px;
+	text-decoration: none;
+	color: #7D7D7E;
+		}
+.Body-Side-Deshbord-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+/*for lookup*/
+.Body-Side-Lookup-a{
+	position: absolute;
+	left: 3px;
+	top: 183px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-Lookup-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+/*for file*/
+.Body-Side-File-a{
+	position: absolute;
+	left: 3px;
+	top: 243px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-File-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+/*for logs*/
+.Body-Side-Logs-a{
+	position: absolute;
+	left: 3px;
+	top: 303px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+
+.Body-Side-Logs-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+	/*for Buy Cradit Card*/
+.Body-Side-BuyCredit-a{
+	position: absolute;
+	left: 3px;
+	top: 363px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-BuyCredit-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+	/*for Intragtion*/
+.Body-Side-Intragtion-a{
+	position: absolute;
+	left: 3px;
+	top: 423px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-Intragtion-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+	/*for My profile*/
+.Body-Side-MyProfile-a{
+	position: absolute;
+	left: 3px;
+	top: 483px;
+	text-decoration: none;
+	color: #7D7D7E;
+}
+.Body-Side-MyProfile-a:hover  {
+	border-right:5px solid #FF7901;
+	padding-right: 14.5px;
+	}
+
+.Body-Side-menu-p{
+	display: inline-block;
+	position: absolute;
+	left: 35.3px;
+	width: 86px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+/*end of the Body Side Part design*/
+
+
+/*Start of the Body inside upper Part design*/
+.InSideBProperty-Main-Div{
+	display: flex;
+	align-items: center;
+}
+
+.InSideBProperty-Up-Div-Fst{
+	position: absolute;
+	width: 20.3125rem;
+	height: 20.875rem;
+	left: 200px;
+	top: 120px;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: .625rem;
+	z-index: -3;
+}
+.InSideBProperty-Up-Div-Fst-txt{
+	position: absolute;
+	height: 38px;
+	left: 108px;
+	top: 155px;
+	font-size: 20px;
+	line-height: 38px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #26262E;
+}
+.InSideBProperty-Up-Div-Fst-txt-2{
+	position: absolute;
+	width: 123px;
+	height: 20px;
+	left: 92px;
+	top: 193px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7D7D7E;
+}
+
+.InSideBProperty-Up-Div-Fst-txt-3{
+	position: absolute;
+	height: 20px;
+	left: 107px;
+	top: 223px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7D7D7E;
+}
+
+.InSideBProperty-Up-Div-Fst-txt-4{
+	position: absolute;
+	height: 20px;
+	left: 67px;
+	top: 248px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7D7D7E;
+		}
+
+.InSideBProperty-Up-Div-Snd{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 45%;
+	height: 73%;
+	left: 605px;
+	top: 120px;
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: .625rem;
+}
+
+ /*---------
+ for card 1
+ -----------*/
+.CraditCard{
+	position: absolute;
+	width: 387px;
+	height: 154px;
+	left: 68px;
+	top: 50px;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: 10px;
+}
+.craditCardText{
+	position: absolute;
+	height: 30px;
+	left: 170px;
+	top: 10px;
+	font-size: 24px;
+	color: #26262E;
+}
+.CraditCard-CCard{
+	position: absolute;
+	width: 130px;
+	height: 32px;
+	left: 30px;
+	top: 18px;
+	font-size: 24px;
+	line-height: 30px;
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #7D7D7E;
+}
+.CraditCard-num{
+	position: absolute;
+	width: 172px;
+	height: 32px;
+	left: 30px;
+	top: 92px;
+	font-size: 20px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #BDBDBD;
+}
+.craditCard-img{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 347px;
+	top: 10px;
+	}
+ /*-----------
+   for card 2
+ -------------*/
+.CraditCard-2{
+	box-sizing: border-box;
+	position: absolute;
+	width: 387px;
+	height: 154px;
+	left: 68px;
+	top: 230px;
+	background: #FFFFFF;
+	border: 1px solid #FF7901;
+	border-radius: 10px;
+}
+
+.craditCardText-2{
+	position: absolute;
+	height: 30px;
+	left: 30px;
+	top: 60px;
+	font-size: 24px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	color: #26262E;
+}
+
+.CraditCard-CCard-2{
+	position: absolute;
+	height: 32px;
+	left: 30px;
+	top: 30px;
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.CraditCard-num-2{
+	position: absolute;
+	width: 169px;
+	height: 32px;
+	left: 30px;
+	top: 92px;
+	font-size: 20px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #26262E;
+}
+
+.craditCard-img-2{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 347px;
+	top: 10px;
+	background: #FFD7D7;
+	border-radius: 40px;
+}
+ /*----------
+ for card 3
+ -----------*/
+.CraditCard-3{
+	box-sizing: border-box;
+	position: absolute;
+	width: 387px;
+	height: 154px;
+	left: 68px;
+	top: 400px;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F4;
+	border-radius: 10px;
+}
+
+/*-------------------------
+inside body down div start
+---------------------------*/
+
+.InSideBProperty-Dwn-Div{
+	display: flex;
+	top: 750px;
+	left: 200px;
+	width: 80%;
+	height: 90%;
+}
+.InSideBProperty-Dwn-Div-hr{
+	position: absolute;
+	width: 98%;
+	height: 0px;
+	left: 5px;
+	top: 280px;
+	border: 2px solid #F2F2F4;
+}
+.InSideBProperty-Dwn-Div-txt{
+font-size: 16px;
+line-height: 28px;
+height: 100px;
+display: flex;
+align-items: center;
+color: #26262E;
+}
+.InSideBProperty-Dwn-Div-txt-Org{
+margin:10px ;
+}
+.InSideBProperty-Dwn-Div-txt-Org:hover{
+	color: #FF7901;
+border-bottom: 2px solid  #FF7901;
+}
+
+/*--------------------
+Start for trogle button
+---------------------*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #FF7901;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*--------------------
+End for trogle button
+---------------------*/
+.InSideBProperty-Dwn-btn{
+	display: flex;
+	flex-direction: column;
+}
+.InSideBProperty-Dwn-btn-on{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 110px;
+}
+.InSideBProperty-Dwn-btn-off{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 165px;
+}
+
+.InSideBProperty-Dwn-btn-on-2{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 220px;
+}
+.InSideBProperty-Dwn-btn-hr{
+	position: absolute;
+	width: 99%;
+	height: 0px;
+	left: 0px;
+	top: 80px;
+	border: 2px solid #F2F2F4;
+}
+.InSideBProperty-Dwn-btn-on-3{
+	display: flex;
+	position: absolute;
+	left: 5px;
+	top: 300px;
+}
+.InSideBProperty-Dwn-btn-txt {
+left: 40px;
+font-size: 16px;
+line-height: 32px;
+margin-left:20px ;
+display: flex;
+align-items: center;
+}
+
+.InSideBProperty-Dwn-form{
+	position: absolute;
+	left: 150px;
+	top: 441px;
+}
+
+/*for from design*/
+
+.InSideBProperty-Dwn-form-dis{
+	display: flex;
+	}
+
+.InSideBProperty-Dwn-form-input{
+	  width: 100%;
+	  height: 60px;
+	  margin-right: 80px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  padding-right: 18px;
+	}
+
+.InSideBProperty-Dwn-form-input-2{
+	  width: 100%;
+	  height: 60px;
+	  margin-left: 80px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	}
+
+.InSideBProperty-Dwn-form-input-txt{
+	font-size: 16px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	margin-left: 0;
+	color: #7D7D7E;
+	}
+.InSideBProperty-Dwn-form-input-txt-2{
+	font-size: 16px;
+	margin: 0 0 0 80px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #7D7D7E;
+	}
+
+.InSideBProperty-Dwn-form-input-2{
+	font-size: 16px;
+	line-height: 32px;
+	margin-right: 80px;
+	display: flex;
+	align-items: center;
+	color: #7D7D7E;
+	}
+
+.InSideBProperty-Dwn-btn-hr-Aform{
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	left: 5px;
+	top: 580px;
+	border: 2px solid #F2F2F4;
+}
+
+.InSideBProperty-Dwn-form-btn {
+	position: absolute;
+	width: 150px;
+	height: 48px;
+	left: 360px;
+	top: 635px;
+	margin-bottom: 15px;
+	background: #FF7901;
+	border: 1px solid #ccc;
+	box-shadow: 0px 20px 50px rgba(255, 121, 1, 0.3);
+	border-radius: 5px;
+		}
+}
